@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chinthakuntla Pramod Reddy | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#111827;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+font-size:18px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:120px 8%;
+gap:50px;
+}
+
+.hero-content{
+flex:1;
+}
+
+.hero-content h3{
+font-size:28px;
+}
+
+.hero-content h1{
+font-size:65px;
+color:#38bdf8;
+margin:10px 0;
+}
+
+.hero-content h2{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 30px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:8px;
+margin-right:10px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#0284c7;
+transform:translateY(-3px);
+}
+
+.hero-image img{
+width:350px;
+height:350px;
+border-radius:50%;
+border:5px solid #38bdf8;
+box-shadow:0 0 30px #38bdf8;
+object-fit:cover;
+}
+
+section{
+padding:100px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:45px;
+margin-bottom:50px;
+color:#38bdf8;
+}
+
+.about-box{
+background:#1e293b;
+padding:35px;
+border-radius:20px;
+line-height:1.8;
+font-size:18px;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:25px;
+text-align:center;
+border-radius:15px;
+font-size:20px;
+transition:.4s;
+}
+
+.skill:hover{
+background:#38bdf8;
+transform:translateY(-10px);
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:20px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#38bdf8;
+margin-bottom:15px;
+}
+
+.timeline{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.timeline-item{
+background:#1e293b;
+padding:20px;
+border-left:5px solid #38bdf8;
+border-radius:10px;
+}
+
+.certificates{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.cert{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+text-align:center;
+transition:.4s;
+}
+
+.cert:hover{
+transform:scale(1.05);
+}
+
+.achievement{
+background:#1e293b;
+padding:25px;
+margin-bottom:20px;
+border-radius:15px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+font-size:20px;
+margin:10px;
+}
+
+footer{
+background:#111827;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero-content h1{
+font-size:42px;
+}
+
+.hero-image img{
+width:250px;
+height:250px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Pramod Reddy</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#internships">Internships</a>
+<a href="#achievements">Achievements</a>
+<a href="#certifications">Certificates</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h3>Hello, I'm</h3>
+
+<h1>Chinthakuntla Pramod Reddy</h1>
+
+<h2>Software Engineer | Java Full Stack Developer</h2>
+
+<p>
+Aspiring Software Engineer passionate about Java Development,
+Salesforce Development, AI Solutions and Full Stack Technologies.
+Looking forward to building scalable applications and contributing
+to innovative software solutions.
+</p>
+
+<a href="Chinthakuntla_Pramod_Reddy_Resume.pdf" class="btn">
+Download Resume
+</a>
+
+<a href="https://linkedin.com/in/chinthakuntla-pramod-reddy-a875a52b8"
+class="btn">
+LinkedIn
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<!-- Save your photo as profile.png -->
+<img src="profile.png" alt="Pramod Reddy">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about-box">
+
+I am currently pursuing B.Tech in Information Technology at
+Vidya Jyothi Institute of Technology (VJIT), Hyderabad.
+
+I have strong knowledge in Java, HTML, CSS, MySQL,
+Salesforce and Problem Solving.
+
+I completed Salesforce Developer Internship and Java Full Stack Internship.
+I actively participate in coding competitions, hackathons and technical events.
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Java</div>
+<div class="skill">Python</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">MySQL</div>
+<div class="skill">JSP</div>
+<div class="skill">Servlets</div>
+<div class="skill">Salesforce</div>
+<div class="skill">Apex</div>
+<div class="skill">LWC</div>
+<div class="skill">DSA</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Tremor Trace</h3>
+<p>
+AI-based Early Parkinson's Detection System using Machine Learning.
+Analyzes tremor patterns for early diagnosis support.
+</p>
+</div>
+
+<div class="card">
+<h3>Smart Public Hygiene Monitoring System</h3>
+<p>
+IoT based smart city solution for hygiene monitoring,
+alert generation and cleanliness management.
+</p>
+</div>
+
+<div class="card">
+<h3>Banking Management System</h3>
+<p>
+JSP, Servlet and MySQL based banking application supporting
+account management and transactions.
+</p>
+</div>
+
+<div class="card">
+<h3>Typing Speed Test</h3>
+<p>
+Web application that calculates WPM,
+stores scores and generates rankings.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="internships">
+
+<h2 class="section-title">Internships</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Java Full Stack Developer Intern</h3>
+<p>
+EduSkills Foundation
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Salesforce Developer Intern</h3>
+<p>
+Agentblazer Champion Program
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="achievements">
+
+<h2 class="section-title">Achievements</h2>
+
+<div class="achievement">
+<h3>TCS CodeVita Season 13</h3>
+<p>Global Rank : 5116</p>
+</div>
+
+<div class="achievement">
+<h3>Smart India Hackathon</h3>
+<p>Shortlisted Participant</p>
+</div>
+
+<div class="achievement">
+<h3>Web3 Hackathon</h3>
+<p>IIIT Nagpur Participant</p>
+</div>
+
+</section>
+
+<section id="certifications">
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="certificates">
+
+<div class="cert">
+<h3>Java Basic</h3>
+<p>HackerRank</p>
+</div>
+
+<div class="cert">
+<h3>Java Programming</h3>
+<p>Crio.Do</p>
+</div>
+
+<div class="cert">
+<h3>Python Training</h3>
+<p>IIT Bombay</p>
+</div>
+
+<div class="cert">
+<h3>Salesforce Internship</h3>
+<p>Agentblazer Champion Program</p>
+</div>
+
+<div class="cert">
+<h3>Java Full Stack</h3>
+<p>EduSkills</p>
+</div>
+
+<div class="cert">
+<h3>Qlik Sense Business Analyst</h3>
+<p>Qlik Qualification 2024</p>
+</div>
+
+<div class="cert">
+<h3>Web3 Hackathon</h3>
+<p>IIIT Nagpur</p>
+</div>
+
+<div class="cert">
+<h3>CSI Technical Quiz</h3>
+<p>Participation Certificate</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="contact">
+
+<p>📞 +91 6305421015</p>
+
+<p>📧 pramodhreddy66@gmail.com</p>
+
+<p>📍 Nalgonda, Telangana, India</p>
+
+<p>
+💼 LinkedIn:
+linkedin.com/in/chinthakuntla-pramod-reddy-a875a52b8
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 Chinthakuntla Pramod Reddy</h3>
+
+<p>Designed for Placements & MNC Opportunities</p>
+
+</footer>
+
+</body>
+</html>
